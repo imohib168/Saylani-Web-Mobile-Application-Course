@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="font-family: Arial;">
+    <center>
+        <img src="images/logo.png" alt="Saylani Logo">
+        <h1 style="text-decoration: underline; color: rgb(60, 184, 11);">
+            Student <span style="color: slateblue; text-decoration: underline;">
+                Registration <span style="color: black; text-decoration: underline;">
+                    Form</span> </span>
+        </h1>
+
+        <form action="submitpage.html">
+            <table cellspacing="13" style="background-color: slateblue; color: white;">
+                <tr>
+                    <td> <label style="text-transform: uppercase;" for="fname">First Name:</label> </td>
+                    <td>
+                        <input type="text" name="firstname" id="fname" placeholder="Enter your First Name"
+                            maxlength="20">
+                        <span style="font-size: 13px;">(max. 20 characters a-z and A-Z)</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label style="text-transform: uppercase;" for="lname"> Last Name: </label></td>
+                    <td>
+                        <input type="text" name="lastname" id="lname" placeholder="Enter your Last Name" maxlength="20">
+                        <span style="font-size: 13px;">(max. 20 characters a-z and A-Z)</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label style="text-transform: uppercase;" for="dob">Date of Birth: </label></td>
+                    <td><input type="date" name="Date of Birth" id="dob"></td>
+                </tr>
+
+                <tr>
+                    <td><label style="text-transform: uppercase;" for="email">Email ID:</label></td>
+                    <td><input type="email" name="Email" id="email" placeholder="Enter your active Email"></td>
+                </tr>
+
+                <tr>
+                    <td><label style="text-transform: uppercase;" for="mobno">Mobile Number: </label></td>
+                    <td>
+                        <input type="number" name="Mobile Number" id="mobno" placeholder="Enter your Mobile Number"
+                            maxlength="10">
+                        <span style="font-size: 13px;">(10 Digit Number)</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="text-transform: uppercase;">Gender: </td>
+                    <td>
+                        <input id="male" type="radio" name="gender">
+                        <label for="male">Male</label>
+
+                        <input id="female" type="radio" name="gender">
+                        <label for="female">Female</label>
+
+                        <input id="other" type="radio" name="gender">
+                        <label for="other">Other</label>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td><label style="text-transform: uppercase;" for="address">Address: </label></td>
+                    <td><textarea name="Address" id="address" cols="30" rows="4"
+                            placeholder="Enter your Text here..."></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label style="text-transform: uppercase;" for="city">City: </label></td>
+                    <td>
+                        <input type="text" name="City" id="city" placeholder="Enter City">
+                        <span style="font-size: 13px;">(max. 20 characters a-z and A-Z)</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label style="text-transform: uppercase;" for="pincode">Pin Code: </label></td>
+                    <td>
+                        <input type="number" name="Pin Code" id="pincode" placeholder="Enter Pin Code">
+                        <span style="font-size: 13px;">(6 Digit Number)</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label style="text-transform: uppercase;" for="state">State: </label></td>
+                    <td>
+                        <input type="text" name="State" id="state" placeholder="Enter State">
+                        <span style="font-size: 13px;">((max. 20 characters a-z & A-Z))</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label style="text-transform: uppercase;" for="country">Country: </label></td>
+                    <td><input type="text" name="Country" id="country" placeholder="Enter Country Name"></td>
+                </tr>
+
+                <tr>
+                    <td style="text-transform: uppercase;">Hobbies: </td>
+                    <td>
+                        <input type="checkbox" name="hobby" id="drawing">
+                        <label for="drawing">Drawing</label>
+
+                        <input type="checkbox" name="hobby" id="singing">
+                        <label for="singing">Singing</label>
+
+                        <input type="checkbox" name="hobby" id="dancing">
+                        <label for="dancing">Dancing</label>
+
+                        <input type="checkbox" name="hobby" id="sketching">
+                        <label for="sketching">Sketching</label>
+
+                        <br>
+                        <br>
+
+                        <input type="radio" name="other" id="other">
+                        <label for="other">Other: </label>
+                        <input type="text" name="otherhobby" id="other" placeholder="Other Hobbies...">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="text-transform: uppercase;">Qualification:
+                    <td>
+                        <table cellpadding="3" style="margin: 10px 0px;">
+
+                            <tr align="center">
+                                <td><b>ST.No.</b></td>
+                                <td><b>Examination</b></td>
+                                <td><b>Board</b></td>
+                                <td><b>Percentage</b></td>
+                                <td><b>Year of Passing</b></td>
+                            </tr>
+
+                            <tr align="center">
+                                <td>1</td>
+                                <td>Class X</td>
+                                <td><input type="text" name="Board" maxlength="30" /></td>
+                                <td><input type="text" name="Percentage" maxlength="30" /></td>
+                                <td><input type="text" name="YrOfPassing" maxlength="30" /></td>
+                            </tr>
+
+                            <tr align="center">
+                                <td>2</td>
+                                <td>Class XII</td>
+                                <td><input type="text" name="Board" maxlength="30" /></td>
+                                <td><input type="text" name="Percentage" maxlength="30" /></td>
+                                <td><input type="text" name="YrOfPassing" maxlength="30" /></td>
+                            </tr>
+
+                            <tr align="center">
+                                <td>3</td>
+                                <td>Graduation</td>
+                                <td><input type="text" name="Board" maxlength="30" /></td>
+                                <td><input type="text" name="Percentage" maxlength="30" /></td>
+                                <td><input type="text" name="YrOfPassing" maxlength="30" /></td>
+                            </tr>
+
+                            <tr align="center">
+                                <td>4</td>
+                                <td>Masters</td>
+                                <td><input type="text" name="Board" maxlength="30" /></td>
+                                <td><input type="text" name="Percentage" maxlength="30" /></td>
+                                <td><input type="text" name="YrOfPassing" maxlength="30" /></td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td align="center">(10 char max)</td>
+                                <td align="center">(upto 2 decimal)</td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="text-transform: uppercase;">Course <br> Applied For: </td>
+
+                    <td>
+                        <input type="radio" name="course" id="bca">
+                        <label for="bca">BCA</label>
+
+                        <input type="radio" name="course" id="bcom">
+                        <label for="bcom">B.Com</label>
+
+                        <input type="radio" name="course" id="bsc">
+                        <label for="bsc">BSc</label>
+
+                        <input type="radio" name="course" id="ba">
+                        <label for="ba">B.A</label>
+                    </td>
+                </tr>
+                <!-- </center> -->
+
+                <td style="text-align: center; font-size: 25px;" colspan="20">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </td>
+
+            </table>
+        </form>
+
+</body>
+
+</html>

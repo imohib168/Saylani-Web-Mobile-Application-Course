@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.inline{
+    display: inline-block;
+} 
+/* =============================== */
+
+.donation-buttons {
+    font-size: 13px;
+}
+
+.donation-buttons button {
+    color: green;
+}
+
+.social {
+    cursor: pointer;
+}
+/*  */
+.nav-item{
+    padding: 0 6px;
+    margin-right: 5px;
+}
+
+.nav-item:hover {
+    background-color: 	rgb(192, 210, 212);
+    border-radius: 55px;
+}
+/*  */
+.banner img {
+    width: 100%;
+    height: auto;
+}
+/*  */
+.news {
+    margin-top: 15px;
+    padding: 5px;
+    background-color: #316dc3;
+    color: white;
+}
+
+
+/* ============================================ */
+
+.paragraph {
+    color: 	rgba(128,128,128,0.8);
+}
+
+/*  */
+
+.counter {
+    padding: 70px 0px;
+    /* margin-bottom: 10px; */
+}
+
+.food h3{
+    font-size: 55px;
+    margin: 12px 0px;
+    color: white;
+}
+
+.family h3 {
+    font-size: 55px;
+    color: white;
+    margin: 12px 0;
+}
+.education h3 {
+    font-size: 55px;
+    color: white;
+    margin: 12px 0;
+}
+.medical h3 {
+    font-size: 55px;
+    color: white;
+    margin: 12px 0;
+}
+
+.row p {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+/*  */
+
+.whatwedo {
+    background-color: #f7f8fa;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+/*  */
+
+.cursor {
+    cursor: pointer;
+}
+
+/*  */
+
+.line {
+    background-color: green;
+    display: block;
+    width: 70px;
+    height: 2px;
+}
+
+/*  */
+
+.project {
+    border: 1px solid rgba(128,128,128,0.2);
+}
+
+.upcoming-events {
+    height: 230px;
+}
+/*  */
+
+.gallery-headings-and-logo {
+    text-align: center;
+}
+
+.gallery-headings-and-logo img {
+    padding: 10px 0px 30px 0px;
+}
+/* ======================= */
+ 
+.footer {
+    background-color: #25272e;
+    margin-top: 90px;
+    color: white;
+}
+
+
+.icons {
+    color: green;
+}
+
+.contact .numbers {
+    color: rgb(187, 187, 187);
+    margin-left: 10px;
+}
+
+.contact .email {
+    margin-left: 10px;
+    color: rgb(187, 187, 187)
+}
+
+.address p{
+    margin-top: 50px;
+    font-size: 17px;
+    color: rgb(187, 187, 187)
+}
+
+
+/*  */
+
+.useful-links-heading {
+    margin-top: 35px;
+    margin-right: 30px;
+    color: rgb(187, 187, 187)
+}
+
+/*  */
+
+.social-icons {
+    cursor: pointer;
+} 
+.links {
+    margin-top: 35px;
+}
+.links h5{
+    margin-bottom: 10px;
+    color: rgb(187, 187, 187)
+}
+.icon {
+    padding: 13px 15px;
+    border-radius: 100px;
+    background-color: #316dc3;
+}
+/*  */
+
+.copyright {
+    color: white;
+    margin: 0px auto;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* ============================= */
+
+.back-to-top {
+    position: fixed;
+    bottom: 35px;
+    left: 1450px;
+}

@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: red; */
+} 
+html {
+    scroll-behavior: smooth;
+}  
+.navbar .menu ul li a {
+    font-size: 20px;
+}
+/* ================================== */
+
+.offers h1.deals {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.offers .btn-custom {
+    color: white !important;
+    /* background-color: rgba(230, 213, 213, 0.1) !important; */
+    background-color: #343a40 !important;
+}
+
+.offers .btn-custom:hover {
+    background-color: #3f464d !important;
+}
+
+.carousel-inner {
+    margin-top: 110px;
+}
+
+/* ============================== */
+
+.more-deals div a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.more-deals div a:hover {
+    color: white;
+}
+
+/* =================================== */
+
+.menu .pizza-flavors {
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu .pizza-flavors li {
+    margin-bottom: 12px;
+    color: white;
+}
+
+.menu .pizza-flavors li a {
+    text-decoration: none;
+    color: rgb(163, 151, 196);
+}
+
+.menu ul li a {
+    color: yellow !important;
+}
+
+.menu ul li a.active {
+    border-radius: 10px !important;
+    color: yellowgreen !important;
+}
+
+/* -------------------- */
+.menu .fries-flavors {
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu .fries-flavors li {
+    margin-bottom: 12px;
+    color: white;
+}
+
+.menu .fries-flavors li a {
+    text-decoration: none;
+    color: rgb(163, 151, 196);
+}
+/* -------------------- */
+
+.menu .beverages {
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu .beverages li {
+    margin-bottom: 12px;
+    color: white;
+}
+
+.menu .beverages li a {
+    text-decoration: none;
+    color: rgb(163, 151, 196);
+}
+/* -------------------- */
+
+
+/* MENU PAGE STYLING */
+.menu-items-pizza {
+    padding-top: 160px;
+    padding-bottom: 15px;
+}
+
+/* ---------------- */
+
+
+/* Footer CSS */
+
+.social:hover {
+    transform: scale(1.1);
+}
+
+.social {
+    transform: scale(1);
+    /* Browser Variations: */
+
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transition-duration: 0.8s;
+    */
+}
+
+.color-icon {
+    color: white;
+}
+.color-icon:hover {
+    /* color: #dbddcd; */
+    color: greenyellow;
+}
+
+/* Go to top Button */
+.gototop {
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    color: red;
+
+    text-decoration: none;
+    text-align: center;
+}
+
+.gototop:hover {
+    color: yellow;
+}
+
+/* About Us */
+
+.aboutus {
+    margin-top: 120px;
+}
+
+.p1, .p2, .p3, .p4 {
+    font-size: 130% !important;
+    color: rgb(27, 233, 233) !important;
+}
+
+.p5 {
+    font-size: 155%;
+    font-weight: bolder;
+}
+
+
+/* Order form */
+
+.form {
+    padding: 10px;
+}
+.order-form {
+    margin-top: 170px;
+    margin-bottom: 60px;
+}
+
+/* Index.html > Order Button */
+
+a.order-button {
+    text-decoration: none !important;
+}
+
+/* Order Confirmed page */
+
+#contact {
+    margin-top: 0px !important;
+}
+
+.thankyou {
+    padding-top: 200px !important;
+    padding-bottom: 40px !important;
+}
+
+.order-confirm {
+    font-weight: bolder;
+    font-size: 250%;
+}
+
+.order-confirm-2 {
+    font-weight: bolder;
+    font-size: 200%;
+}
+
+.order-confirm-3 {
+    font-weight: bold;
+    font-size: 150%;
+}
+ 
+.cont {
+    text-decoration: none !important;
+    color: yellow;
+}
+
+.cont:hover {
+    color: red;
+}
+
+.go-to-home {
+    text-decoration: none !important;
+    color: silver;
+}
+
+.go-to-home:hover {
+    color: yellowgreen;
+    text-decoration: underline !important;
+}
