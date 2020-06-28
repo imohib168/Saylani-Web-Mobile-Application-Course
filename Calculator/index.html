@@ -12,12 +12,13 @@
     <div class="container">
         <div id="calculator">
             <div id="result">
-                <p> <input type="text" id="output-result"> </p>
+                <p> <input type="number" id="output-result" maxlength="10"> </p>
             </div>
 
             <div id="typing-area">
                 <div>
-                    <button class="clearbutton" onclick="clearScreen()">C</button>
+                    <button class="button" onclick="clearScreen()">C</button>
+                    <button class="button" onclick="backspace()">CE</button>
                     <button class="button" onclick="placeNumb('%')">%</button>
                     <button class="button" onclick="placeNumb('/')">/</button>
                 </div>
