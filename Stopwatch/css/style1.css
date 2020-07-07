@@ -35,8 +35,13 @@ body {
 }
 
 .screen td {
-    width: 30px;
+    width: 60px;
     margin: 0px 10px;
+}
+
+.TimeUnit {
+    font-size: 20px;
+    color: rgb(77, 73, 73);
 }
 
 .buttons Button{
@@ -50,7 +55,7 @@ body {
 
 #start {
     background-color: rgb(185, 248, 90);
-    padding: 10px 11px;
+    padding: 10px 15px;
     color: red;
     font-weight: bold;
     border-radius: 8px;
@@ -58,7 +63,7 @@ body {
 
 #stop {
     background-color: red;
-    padding: 10px 11px;
+    padding: 10px 15px;
     color: yellowgreen;
     font-weight: bold;
     border-radius: 8px;
@@ -66,7 +71,7 @@ body {
 
 #reset {
     background-color: orange;
-    padding: 10px 11px;
+    padding: 10px 15px;
     color: red;
     font-weight: bold;
     border-radius: 8px;

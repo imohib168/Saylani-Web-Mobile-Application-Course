@@ -1,9 +1,11 @@
 var min = 0;
 var sec = 0;
 var ms = 0;
+var hr = 0;
 var minute = document.getElementById("min");
 var seconds = document.getElementById("sec");
 var miliSecond = document.getElementById("ms");
+var hours = document.getElementById("hr");
 
 var interval;
 
@@ -21,6 +23,11 @@ function timer() {
         minute.innerHTML = min;
         sec = 0;
     }
+    else if (min >= 60) {
+        hr++
+        hours.innerHTML = hr;
+        min = 0;
+    }
 }
 
 
@@ -31,7 +38,6 @@ function start() {
 function stop() {
     clearInterval(interval)
 
-    // Enabling Start button again when the watch s
     document.getElementById("start").disabled = false;
 }
 
@@ -44,6 +50,5 @@ function reset() {
     miliSecond.innerHTML = ms;
     clearInterval(interval)
 
-    // Enabling Start button again
     document.getElementById("start").disabled = false;
 }
