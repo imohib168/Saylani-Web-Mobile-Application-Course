@@ -135,6 +135,89 @@ a {
 }
 
 .footer a:hover {
-    color:white;
+    color: white;
     transition: 0.6s;
+}
+
+@media only screen and (max-width: 700px) {
+    h1 {
+        background: linear-gradient(to left, #535152, #f35e4d);
+        color: rgb(30, 33, 41);
+        margin: 0;
+        padding: 7px 3px;
+        text-transform: uppercase;
+        font-size: 130%;
+        text-align: center;
+        margin: 10% 0% 5% 0%;
+        font-weight: bold;
+        border-radius: 3px;
+    }
+    label {
+        font-size: 110%;
+        font-weight: bold;
+        color: rgb(10, 10, 10);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    input[type="text"] {
+        width: 200px;
+        padding: 12px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        margin: 20px 0px;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: red;
+    }
+    #service {
+        border-radius: 5px;
+        padding: 12px;
+        margin: 10px 0px;
+        font-weight: bold;
+        color: red;
+        font-size: 12px;
+        outline: none;
+        border: none;
+    }
+    button {
+        cursor: pointer;
+        font-weight: bold;
+        display: block;
+        margin: 30px auto;
+        background: rgb(145, 145, 138);
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 18px;
+        color: black;
+        border: none;
+        outline: none;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    #totalTip:before {
+        content: "Tip amount each";
+        font-size: 70%;
+        margin-bottom: 20px;
+        font-weight: bold;
+        display: block;
+        text-transform: uppercase;
+        color: black(122, 122, 122);
+    }
+    #totalTip #tip {
+        font-size: 20px;
+        font-weight: bold;
+        display: block;
+        color: rgb(224, 193, 193);
+    }
+    .footer {
+        color: black;
+        text-align: center;
+        padding: 15px 0px;
+        font-size: 16px;
+        background: linear-gradient(to left, #535152, #f35e4d);
+        margin: 20px 0px;
+        border-radius: 7px;
+        font-weight: bold;
+    }
 }
