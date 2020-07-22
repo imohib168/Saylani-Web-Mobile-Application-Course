@@ -16,6 +16,10 @@ body {
     background-color: rgb(30,130,60)!important;
 }
 
+.navbar-toggler {
+    outline: none;
+}
+
 .logo img{
     height: 80px;
 }
@@ -74,11 +78,11 @@ button {
     transition-duration: 0.8s;
 }
 
-#contact .color-icon {
+#socialLinks .color-icon {
     color: rgb(71, 172, 71) !important;
 }
 
-#contact .color-icon:hover {
+#socialLinks .color-icon:hover {
     color: yellow !important;
 }   
 
@@ -90,14 +94,40 @@ button {
     left: 1450px;
     bottom: 10px;
     color: yellow;
+    background-color: transparent;
+    border: none;
+    outline: none;
 
     text-decoration: none;
     text-align: center;
 }
 
+#Button {
+    outline: none;
+}
+
 .gototop:hover {
     color: red;
+    outline: none;
 }
+
+/* Side Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 px rgb(30, 248, 157);
+} */
+
+::-webkit-scrollbar-thumb {
+    background: #2f8f2f;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(121, 248, 3);
+}
+
 
 /* Media query for responisve Navbar */
 
@@ -105,6 +135,7 @@ button {
     .navbar {
         background-color: rgb(47, 143, 47) !important;
         height: 100%;
+        outline: none !important;
     }
 
     .nav-item {
@@ -114,7 +145,11 @@ button {
     .nav-link {
         font-size: 20px;
         color: black !important;
-        /* font-weight: bold; */
+        font-weight: bold !important;
+    }
+
+    .navbar-toggler {
+        outline: none !important;
     }
 
 }
