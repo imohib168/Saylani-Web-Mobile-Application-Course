@@ -5,8 +5,8 @@
 
 **Saylani Mass Training Department is one of the Department which is running under Saylani Welfare Trust Management. This department is related to Saylani education Board.**
 
-### If you want to know more about _SMIT_ [Click here](https://www.facebook.com/SaylaniMassTraining/)
-### If you want to know about _SAYLANI WELFARE TRUST_ [Click here](https://en.wikipedia.org/wiki/Saylani_Welfare_Trust)
+### Facebook Page _SMIT_ [Click here](https://www.facebook.com/SaylaniMassTraining/)
+### More About _SAYLANI WELFARE TRUST_ [Click here](https://en.wikipedia.org/wiki/Saylani_Welfare_Trust)
 ---
 
 ## About Me
