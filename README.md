@@ -5,12 +5,12 @@
 
 **Saylani Mass Training Department is one of the Department which is running under Saylani Welfare Trust Management. This department is related to Saylani education Board.**
 
-### Facebook Page _SMIT_ [Click here](https://www.facebook.com/SaylaniMassTraining/)
-### More About _SAYLANI WELFARE TRUST_ [Click here](https://en.wikipedia.org/wiki/Saylani_Welfare_Trust)
+### Facebook Page `SMIT` [Click here](https://www.facebook.com/SaylaniMassTraining/)
+### More About `SAYLANI WELFARE TRUST` [Click here](https://en.wikipedia.org/wiki/Saylani_Welfare_Trust)
 ---
 
 ## About Me
-**I'm Mohib Ismail, an everyday Inter student hailed in Karachi, spent my life directionless like every other kid until I enrolled in Saylani Web and Mobile Application Development and made some cool stuff. As you go through my portfolio, you'll find all the exciting projects I've worked on through a dedicated course of this prestigious opportunity.**
+**I'm `Mohib Ismail`, an everyday Inter student hailed in Karachi, spent my life directionless like every other kid until I enrolled in Saylani Web and Mobile Application Development and made some cool stuff. As you go through my portfolio, you'll find all the exciting projects I've worked on through a dedicated course of this prestigious opportunity.**
 
 ### Facebook: [Mohib Ismail](https://www.facebook.com/Mohib.168)
 ### Linkedin: [Mohib Ismail](https://www.linkedin.com/in/mohib-ismail-3871091a2/)
