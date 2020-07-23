@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+        <title>Chapter: 53 - 58</title>
+
+</head>
+
+<body>
+
+    <h1>Image Gallry</h1>
+
+    <div id="imageGallery">
+        <img onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" class="img" src="images/1.jpg"
+            alt="">
+        <img onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" class="img" src="images/14.png"
+            alt="">
+        <img onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" class="img" src="images/5.jpg"
+            alt="">
+        <img onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" class="img" src="images/6.jpg"
+            alt="">
+        <img onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" class="img" src="images/7.png"
+            alt="">
+    </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="bigImage" src="" alt="" id="modalImage">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Task: 02 -->
+
+    <div class="t2">
+        <h1>Zoom In & Zoom Out</h1>
+        <img id="Image" src="images/14.png" />
+    </div>
+
+    <div class="t2">
+        <button type="button" onclick="zoomIn()"> Zoom In</button>
+        <button type="button" onclick="zoomOut()"> Zoom Out</button>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

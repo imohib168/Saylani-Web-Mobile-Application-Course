@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chapter: 43 - 48</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Task: 01 -->
+        <div id="site">
+            <a onclick="alert('You clicked on the button and it alerted the Box...')" href="">Visit Site</a>
+        </div>
+        <!-- Task: 02 -->
+        <div id="mobile-house">
+            <h1 style="text-align: center;">Mobile House</h1>
+            <img onclick="alert('Thankyou for purchasing this phone from us...')" src="images/5s.jpg" alt="">
+            <img onclick="alert('Thankyou for purchasing this phone from us...')" src="images/6s.jfif" alt="">
+            <img onclick="alert('Thankyou for purchasing this phone from us...')" src="images/7s.jfif" alt="">
+            <img onclick="alert('Thankyou for purchasing this phone from us...')" src="images/8s.jfif" alt="">
+        </div>
+
+        <!-- Task: 03 -->
+        <div id="stdData">
+            <table id="myTable" border="1" width="100%">
+                <tr>
+                    <th>Index</th>
+                    <th>Name</th>
+                    <th>Class</th>
+                    <th></th>
+                </tr>
+                <tr align="center">
+                    <td>01</td>
+                    <td>Ali</td>
+                    <td>10</td>
+                    <td><button onclick="delRow(this)">Delete</button></td>
+                </tr>
+                <tr align="center">
+                    <td>02</td>
+                    <td>Hasan</td>
+                    <td>10</td>
+                    <td><button onclick="delRow(this)">Delete</button></td>
+                </tr>
+                <tr align="center">
+                    <td>03</td>
+                    <td>Ahmed</td>
+                    <td>09</td>
+                    <td><button onclick="delRow(this)">Delete</button></td>
+                </tr>
+                <tr align="center">
+                    <td>04</td>
+                    <td>Muhammad</td>
+                    <td>09</td>
+                    <td><button onclick="delRow(this)">Delete</button></td>
+                </tr>
+                <tr align="center">
+                    <td>05</td>
+                    <td>Ammar</td>
+                    <td>08</td>
+                    <td><button onclick="delRow(this)">Delete</button></td>
+                </tr>
+                <tr align="center">
+                    <td>06</td>
+                    <td>Hammad</td>
+                    <td>08</td>
+                    <td><button onclick="delRow(this)">Delete</button></td>
+                </tr>
+                <tr align="center">
+                    <td>07</td>
+                    <td>Umer</td>
+                    <td>05</td>
+                    <td><button onclick="delRow(this)">Delete</button></td>
+                </tr>
+                <tr align="center">
+                    <td>08</td>
+                    <td>Osman</td>
+                    <td>06</td>
+                    <td><button onclick="delRow(this)">Delete</button></td>
+                </tr>
+                <tr align="center">
+                    <td>09</td>
+                    <td>Yahya</td>
+                    <td>10</td>
+                    <td><button onclick="delRow(this)">Delete</button></td>
+                </tr>
+                <tr align="center">
+                    <td>10</td>
+                    <td>Basit</td>
+                    <td>10</td>
+                    <td><button onclick="delRow(this)">Delete</button></td>
+                </tr>
+            </table>
+
+            <br>
+
+
+        </div>
+
+        <!-- Task: 04 -->
+        <div id="img">
+            <img id="task4" src="images/flower.jfif" onMouseover="src='images/bridge.jfif'"
+                onMouseout="src='images/flower.jfif'">
+        </div>
+        <!-- Rask: 05 -->
+        <div id="onClickCounter">
+            <h1>COUNTER</h1>
+            <p id="counter">0</p>
+            <button onclick="incrCounter()">Increase</button>
+            <button onclick="decrCounter()">Decrease</button>
+            <script src="app.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

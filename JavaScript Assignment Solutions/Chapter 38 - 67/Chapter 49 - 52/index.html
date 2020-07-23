@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter: 49 - 52</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Task: 01 -->
+    <form id="SignUp">
+
+        <label for="fname">First name: </label>
+        <input type="text" name="fname" id="fname" placeholder="First Name">
+
+        <br>
+
+        <label for="lname">Last Name: </label>
+        <input type="text" name="lname" id="lname" placeholder="Last Name">
+
+        <br>
+
+        <label for="email">Email: </label>
+        <input type="email" name="Email" id="email" placeholder="Email">
+
+        <br>
+
+        <label for="pass">Password: </label>
+        <input type="password" name="Password" id="pass" placeholder="Password">
+
+        <br>
+
+        <input type="button" value="Submit" id="btnSubmit" onclick="showData()">
+
+    </form>
+    <div id="displayInfo">
+        <p id="displayfirstName"></p>
+        <p id="displaylastName"></p>
+        <p id="displayEmail"></p>
+    </div>
+
+
+    <!-- Task: 02 -->
+    <p id="AboutMe">
+        Hi. I'm Mohib, an everyday Inter student hailed in Karachi, spent my life directionless like every other kid
+        until I enrolled <a href="javascript:void(0);" onclick="moreDetail()">Click for more</a>
+    </p>
+
+    <!-- Task: 03 -->
+    <form id="StdForm">
+        First Name: <input type="text" name="First-Name" id="stdFirstName" placeholder="First Name">
+        <br>
+        Last Name: <input type="text" name="Last-Name" id="stdLastName" placeholder="Last Name">
+        <br>
+        Standard: <input type="text" name="Standard" id="stdStandard" placeholder="Standard">
+        <br>
+        Section: <input type="text" name="Section" id="stdSection" placeholder="Section">
+        <br>
+        <button id="submitBtn" onclick="stdSchoolDetail(); return false;">Submit</button>
+    </form>
+
+    <center>
+        <table id="table" border="1" cellspacing="5" cellpadding="5" style="width: 100%;">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Standard</th>
+                <th>Section</th>
+                <th>Control Delete</th>
+                <th>Control Edit</th>
+            </tr>
+        </table>
+    </center>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

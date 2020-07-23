@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(0,0,0,0.5);
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#site {
+    margin: 60px auto;
+    padding: 10px;
+    background-color: antiquewhite;
+    width: 10%;
+    text-align: center;
+}
+#site a {
+    text-decoration: none;
+}
+
+#mobile-house {
+    /* background-color: cadetblue; */
+    padding: 20px;
+    margin-top: 30px;
+}
+#mobile-house img {
+    border: 2px solid black;
+    height: 300px;
+    width: 24%;
+    margin-top: 30px;
+}
+
+#stdData {
+    color: black;
+    padding: 10px;
+}
+
+#stdData button {
+    width: 100%;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+#stdData tr th{
+    padding: 10px;
+    color: rgb(69, 83, 81);
+}
+
+#stdData tr td{
+    padding: 10px;
+}
+
+#img {
+    text-align: center;
+}
+#task4 {
+    margin: 20px;
+    height: 250px;
+    width: 600px;
+}
+
+#onClickCounter {
+    background-color: rgb(146, 149, 150);
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+#onClickCounter h1 {
+    text-align: center;
+    margin: 10px 0px;
+    color: crimson;
+}
+
+#counter {
+    margin: 20px 0px;
+    font-size: 20px;
+}
+#onClickCounter p {
+    background-color: #b1a6a6;
+    padding: 10px;
+    color: white;
+}
+
+button {
+    font-size: 20px;
+    background-color: #b1a6a6;
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+}

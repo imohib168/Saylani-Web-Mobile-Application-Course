@@ -1,0 +1,141 @@
+* {
+    margin: 30;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(187, 88, 88);
+}
+
+#SignUp {
+    background-color: rgb(77, 90, 86);
+    padding: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#SignUp input[type="text"] {
+    padding: 6px;
+    margin-top: 20px;
+    font-size: 15px;
+    width: 225px;
+}
+
+#SignUp input[type="email"] {
+    padding: 6px;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 50px;
+    width: 225px;
+}
+
+#SignUp input[type="password"] {
+    padding: 6px;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 12px;
+    width: 225px;
+}
+
+#btnSubmit {
+    padding: 4px 15px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(179, 176, 158);
+    outline: none;
+    cursor: pointer;
+}
+
+#btnSubmit:hover {
+    color: rgb(44, 31, 31);
+    background-color: rgb(161, 159, 143);
+}
+
+#displayInfo {
+    background-color: rgb(77, 90, 86);
+    padding: 10px;
+    font-size: 30px;
+}
+
+/*  */
+
+#AboutMe {
+    font-size: 30px;
+    padding: 10px;
+    background-color: rosybrown;
+    margin: 30px 0px;
+}
+
+/*  */
+
+#StdForm {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    margin: 40px 50px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px 30px;
+    line-height: 60px;
+    box-shadow: 2px 2px 12px 2px black;
+    border-radius: 6px;
+}
+
+input {
+    font-size: 15px;
+    padding: 8px 60px 8px 10px;
+}
+
+#submitBtn {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    font-size: 25px;
+    margin-top: 40px;
+    outline: none;
+    cursor: pointer;
+    color: wheat;
+    padding: 8px 30px;
+}
+
+/* Table */
+
+#table {
+    width: 100%;
+    /* background-color: yellow; */
+    padding: 10px 220px;
+}
+
+#table tr th {
+    font-size: 30px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#table tr td {
+    color: wheat;
+    font-size: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#delBtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    outline: none;
+}
+
+#editBtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    outline: none;
+}
