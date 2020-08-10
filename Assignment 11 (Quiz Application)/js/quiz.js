@@ -3,10 +3,9 @@ function submitForm(e) {
 
     e.preventDefault();
 
-    let name = document.getElementById("userName");
-
-    if (name.value == "" || name.value == " ") {
-        alert("Please Enter your Name...");
+    let name = document.getElementById("userName").value;
+    if (name == "") {
+        alert("Please Enter your Name...")
     } else {
         sessionStorage.setItem("name", name);
         location.href = "quiz.html";
