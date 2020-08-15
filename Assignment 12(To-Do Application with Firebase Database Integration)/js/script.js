@@ -53,11 +53,28 @@ function delItem(delItem) {
     delItem.parentNode.remove()
 
     // Removing the Exact Item from the database where user clicks
-    firebase.database().ref("ToDoList").on("child_added", function(snapshot) {
-        var val = snapshot.key;
-    })
-    firebase.database().ref("ToDoList/" + val).remove();
+    database = firebase.database();
+    ref = database.ref("ToDoList");
+    ref.on("value", gotData, errData);
 }
+
+function gotData(data) {
+    var key1 = data.val();
+    var keys = Object.keys(key1);
+    console.log(keys);
+    for (var i = 0; i < keys.length; i++) {
+        var k = keys[i];
+        var item = key1[k].item;
+        var key = key1[k].key;
+        console.log(item, key);
+    }
+}
+function errData(err) {
+    console.log("Error!");
+    console.log(err);
+}
+
+// ========================
 
 function DelAll() {
     var confirmation = prompt("Do you want to delete all Items: ", "Yes OR No")
