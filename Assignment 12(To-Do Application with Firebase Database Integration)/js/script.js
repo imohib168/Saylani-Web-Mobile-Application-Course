@@ -64,6 +64,7 @@ function DelAll() {
 
     if (confirmation.toLowerCase() == "yes") {
         var list = document.getElementById("toDoList");
+        firebase.database().ref("ToDoList").remove();
         list.innerHTML = ""
     }
 
