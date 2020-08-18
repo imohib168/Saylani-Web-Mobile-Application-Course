@@ -91,3 +91,6 @@ function done(completed) {
     str.style.textDecoration = "line-through";
     str.style.color = "red";
 }
+
+var removeOnCloseTab = firebase.database().ref("ToDoList");
+removeOnCloseTab.onDisconnect().set("Disconnected.!");
