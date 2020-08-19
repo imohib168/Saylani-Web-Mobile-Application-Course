@@ -12,8 +12,8 @@
 ## About Me
 **I'm `Mohib Ismail`, an everyday Inter student hailed in Karachi, spent my life directionless like every other kid until I enrolled in Saylani Web and Mobile Application Development and made some cool stuff. As you go through my portfolio, you'll find all the exciting projects I've worked on through a dedicated course of this prestigious opportunity.**
 
-### Facebook: [Mohib Ismail](https://www.facebook.com/Mohib.168)
-### Linkedin: [Mohib Ismail](https://www.linkedin.com/in/mohib-ismail-3871091a2/)
+### Facebook: [`Mohib Ismail`](https://www.facebook.com/Mohib.168)
+### Linkedin: [`Mohib Ismail`](https://www.linkedin.com/in/mohib-ismail-3871091a2/)
 
 ---
 ### Assignment 01 (Periodic Table) : 
@@ -66,5 +66,5 @@
 **Firebase hosted link: [To-Do Application with Firebase Database](https://to-do-app-with-database.web.app/)**
 
 ---
-## Prepared By: [Mohib Ismail](https://github.com/imohib168/)
+## Prepared By: [`Mohib Ismail`](https://github.com/imohib168/)
 
